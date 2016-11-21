@@ -13,7 +13,7 @@ app.get('/task2B', async (req, res) => {
 
 try {
 
-	let fullName = fullname.toLowerCase(req.query.fullnamem.trim());
+	let fullName = fullname.toLowerCase(req.query.fullname.trim());
 	conssole.log(fullname);
 	//fullname = fullname.toLowerCase();
 	let arr = fullname.split(/[\s]+/);
